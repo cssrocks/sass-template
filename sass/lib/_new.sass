@@ -1,0 +1,5 @@
+// +bg("pttrn.png")
+// +bg("pttrn.png", repeat-x 100% 0%)
+$default-bg-property: no-repeat 0 0
+=bg($name, $property: $default-bg-property)
+	background: image-url("#{$name}") $property
